@@ -1,0 +1,103 @@
+@font-face {
+    font-family: canopi4;
+    src: url(/canopi.ttf);
+} 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy', sans-serif;
+}
+html,body{
+   height: 100%;
+   width:100%;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #c1bab0;
+    position: relative;
+}
+#nav{
+    display: flex;
+    height: 110px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #1c1c1a;
+}
+#nav img{
+    height: 30px;
+    width: 40%;
+}
+#nav h5{
+    font-size: 30px;
+    font-weight: 300;
+    width: 40%;
+}
+#nav i{
+    font-weight: 900;
+    font-size: 18px;
+    width: 40%;
+    text-align: right;
+}
+#elems{
+   
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+   
+    
+
+}
+#elem1 h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopi4;
+}
+#elem3{
+    width: 25%;
+    height: 100%;
+    padding:20px 60px;
+    border-right: 2px solid #1c1c1a;
+    border-left: 2px solid #1c1c1a;
+    text-align: center;
+   
+}
+#elem4{
+    width: 30%;
+    height: 100%;
+    
+}
+#elem4 h4{
+    font-family: canopi4;
+}
+#imgdiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+}
+
+#elem1 #imgdiv{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem4 #imgdiv{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#imgdiv:hover img{
+    scale:1.2;
+ }
